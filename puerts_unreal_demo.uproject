@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{EA08BEC8-4AED-4EEF-1300-F58101F69E6D}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "puerts_unreal_demo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject",
+				"UMG",
+				"JsEnv",
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Puerts",
+			"Enabled": true
+		}
+	]
+}
