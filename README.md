@@ -2,15 +2,19 @@
 
 ## 
 
-一、虚拟机启动：
+#### 一、虚拟机启动：
 
-在TsGameInstance.h中启动构造第一个虚拟机，启动登录脚本LoginWidget.ts；
+在
+
+[TsGameInstance.h]: https://github.com/kaguya0x0/PuerTS_proj/blob/main/Source/puerts_unreal_demo/TsGameInstance.h
+
+中启动构造第一个虚拟机，启动登录脚本LoginWidget.ts；
 
 在TsPlayerController.h中启动构造第二个虚拟机，启动背包脚本BagWidget.ts;
 
 
 
-二、UI管理器：
+#### 二、UI管理器：
 
 在继承自Object类的WidgetManager.ts里实现UI的基本管理：
 
@@ -30,7 +34,7 @@
 
 
 
-三、登录界面的MVC框架：
+#### 三、登录界面的MVC框架：
 
 Modle：在LoginData.ts中保存所有用户账号数据，并且实现对数据的查询增加操作；
 
